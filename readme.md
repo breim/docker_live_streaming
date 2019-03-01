@@ -18,6 +18,8 @@ If need stop or access bash
 
     sudo docker stop docker_live_streaming
     sudo docker start docker_live_streaming
+    sudo docker ps -a
+    sudo docker run -it 30b45869af73 bash
     sudo docker exec -it docker_live_streaming bash
 
 View running docker images
