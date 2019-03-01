@@ -17,6 +17,7 @@ Run docker image
 If need stop or access bash
 
     sudo docker stop docker_live_streaming
+    sudo docker start docker_live_streaming
     sudo docker exec -it docker_live_streaming bash
 
 View running docker images
